@@ -85,3 +85,114 @@ The objectives included:
 - Dashboard Design
 - Executive Reporting
 - Stakeholder Communication
+
+---
+
+# Key Findings
+
+The analysis identified several critical operational and data quality issues affecting NHS reporting, financial recovery, and operational performance.
+
+| Finding | Business Impact |
+|---------|-----------------|
+| **28 blank HRG codes** | Approximately **£51,800** of revenue placed at risk due to incomplete clinical coding. |
+| **13.1% overall DNA rate** | High patient non-attendance reduces clinic utilisation and increases waiting times. |
+| **31 missing discharge dates** | Prevents accurate Length of Stay (LOS) and bed occupancy reporting. |
+| **24 non-standard specialty codes** | Reduced reporting consistency across multiple operational datasets. |
+| **15 blank Agency_Flag records** | Created financial uncertainty of up to **£5,775** in agency staffing costs. |
+| **91 frequent Emergency Department attenders** | Identified patients requiring targeted intervention and care management. |
+| **267-day 90th percentile RTT waiting time** | Significantly exceeds the NHS 18-week referral-to-treatment standard. |
+
+
+---
+
+# Project Deliverables
+
+### Module A – Data Quality Audit
+
+- Attendance status validation
+- NHS number cross-reference audit
+- HRG code validation
+- Duplicate detection
+- Waiting time validation
+- Agency staffing audit
+- Data Quality Issue Log
+
+### Module B – Data Transformation
+
+- Data standardisation
+- Validation rules
+- Operational data cleansing
+- Dataset transformation
+- Data Quality scoring
+
+### Module C – Operational Analysis
+
+- DNA rate analysis
+- RTT compliance analysis
+- Waiting time analysis
+- Readmission analysis
+- Theatre cost analysis
+- Frequent attender analysis
+
+### Module D – Executive Reporting
+
+- Executive summary
+- Operational dashboard
+- KPI reporting
+- Business recommendations
+
+### Module E – Stakeholder Communication
+
+- Executive reporting
+- Data reconciliation
+- Decision documentation
+- Final project summary
+
+
+---
+
+# Data Quality Audit Summary
+
+A comprehensive data quality audit was completed across five NHS operational datasets to identify issues affecting reporting accuracy, financial recovery, and operational performance.
+
+## Key Data Quality Findings
+
+| Audit Area | Result | Business Impact |
+|------------|--------|-----------------|
+| Attendance Status Validation | 2 non-standard values identified | Improved accuracy of DNA reporting |
+| NHS Number Audit | 1 missing cross-reference | Prevented incomplete patient pathway reporting |
+| HRG Code Validation | 28 blank HRG codes | Approximately **£51,800** revenue at risk |
+| Date Validation | 3 incorrect formats and 31 blank discharge dates | Improved Length of Stay (LOS) reporting |
+| Duplicate Detection | No duplicate Appointment IDs identified | Confirmed data integrity |
+| Waiting Days Validation | 1 impossible waiting time identified | Prevented inaccurate RTT reporting |
+| Specialty Code Standardisation | 24 GEN codes corrected to GM | Improved specialty reporting consistency |
+| Agency Flag Audit | 15 blank records identified | Financial uncertainty of up to **£5,775** identified |
+
+## Overall Assessment
+
+The audit identified several critical data quality issues requiring remediation before operational reporting. The highest priorities included incomplete HRG coding, missing discharge information, NHS Number inconsistencies, and invalid attendance status values. Addressing these issues would improve reporting accuracy, strengthen data governance, and reduce financial risk.
+
+---
+
+# Operational Analysis
+
+Following data cleansing and validation, operational performance indicators were analysed across outpatient, inpatient, emergency department, theatre, and workforce datasets.
+
+## Key Performance Indicators
+
+| KPI | Result |
+|-----|--------|
+| Overall DNA Rate | **13.1%** |
+| Highest DNA Specialty | **OR (36.17%)** |
+| 90th Percentile RTT Waiting Time | **267 days (38.1 weeks)** |
+| Readmission Rate | **8.9%** |
+| Frequent ED Attenders | **91 patients** |
+| Estimated Annual Theatre Waste | **£1,240,000** |
+
+## Operational Insights
+
+- Orthopaedics recorded the highest DNA rate, indicating significant appointment non-attendance.
+- The 90th percentile RTT waiting time exceeded the NHS 18-week standard by more than double.
+- Readmission performance remained within the 10% target despite incomplete Readmission Flag data.
+- Theatre utilisation analysis identified inconsistent theatre identifiers requiring further investigation.
+- Frequent ED attenders represent an opportunity for targeted patient management and demand reduction initiatives.
